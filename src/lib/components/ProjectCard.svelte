@@ -8,7 +8,7 @@
 </script>
 
 <div class="flex bg-gray-900 dark:bg-gray-100 shadow-md rounded-md w-96 m-4 p-4">
-    <div class="bg-gray-100 dark:bg-gray-900 p-2 rounded-md">
+    <div class="bg-gray-900 p-2 rounded-md">
         <img class="w-24 h-auto object-contain rounded" src={icon}/>
     </div>
     <div class="ml-4">
