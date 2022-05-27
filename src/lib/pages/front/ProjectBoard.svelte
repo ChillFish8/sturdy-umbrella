@@ -23,7 +23,7 @@
 
 <div class="w-3/4 py-8">
     <h3 class="text-center">My Projects</h3>
-    <div class="flex felx-wrap items-center justify-evenly space-x-6 p-4">
+    <div class="flex flex-wrap items-center justify-evenly p-4">
         {#each projects as proj}
             <ProjectCard {...proj}/>
         {/each}
