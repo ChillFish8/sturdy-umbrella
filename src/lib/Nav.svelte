@@ -20,7 +20,7 @@
 	class="flex items-center justify-between h-8 px-8 my-4 underline dark:text-gray-50"
 >
 	<section class="h-8 space-x-6">
-		<a href="/">Home</a><a href="/about">About</a>
+		<a href="/">Home</a>
 	</section>
 
 	{#if darkModeReady}
