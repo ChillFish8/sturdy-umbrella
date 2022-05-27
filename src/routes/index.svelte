@@ -11,7 +11,6 @@
 
 	<Counter />
 	<p class="max-w-xs mx-auto my-8 sm:max-w-none">
-		Visit the <a href="https://svelte.dev">svelte.dev</a> to learn how to build Svelte
-		apps.
+		Party part party time!
 	</p>
 </div>
