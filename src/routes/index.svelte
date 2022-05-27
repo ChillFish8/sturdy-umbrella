@@ -1,16 +1,10 @@
 <script>
-	import Counter from '$lib/Counter.svelte';
+	import Info from "$lib/pages/front/Info.svelte";
+	import ProjectBoard from "$lib/pages/front/ProjectBoard.svelte";
 </script>
 
-<div class="p-4 mx-auto text-center">
-	<h1
-		class="max-w-xs mx-auto my-16 text-6xl font-thin text-red-500 uppercase sm:max-w-none"
-	>
-		Hello world!
-	</h1>
-
-	<Counter />
-	<p class="max-w-xs mx-auto my-8 sm:max-w-none">
-		Party part party time!
-	</p>
+<div class="flex flex-col items-center p-8">
+	<Info/>
+	<div class="w-5/12 border-b-2 border-black dark:border-indigo-700 py-8"></div>
+	<ProjectBoard/>
 </div>
